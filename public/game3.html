@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flappy bird</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+      canvas {
+        border: 4px solid white;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Flappy bird</h3>
+    <div style="display: flex; justify-content: center;">
+      <canvas id="main_game" width="375" height="480"></canvas>
+    </div>
+    <script type="module">
+      import { game } from './lib/game3.js';
+      document.addEventListener('DOMContentLoaded', game.bind(null, 'main_game')); 
+    </script>
+  </body>
+</html>
