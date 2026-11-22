@@ -1,27 +1,31 @@
-# Canvas Game - Flappy bird
-This is a simple game that I made with canvas, css and javascript.
+# Canvas Game — Flappy Bird
+
+A simple Flappy Bird-style game built with Canvas, CSS, and JavaScript.
+
+Grab as many coins as you can and avoid the walls (pipes).
 
 ## Stack
 
-- js, cjs
-- html
-- canvas
-
- Grab as many coin as you can and avoid the walls.
+- JavaScript, js modules
+- HTML5 Canvas
+- Tailwind 4
+- CSS
 
 ## Live Demo
 
 - [Play Now](https://linxfather.github.io/game_js_flappy_bird/game4.html)
 
-## Screenshot
+## Screenshots
 
-![screenshot](screenshots/1.png)
-![screenshot](screenshots/2.png)
+![Gameplay screenshot 1](screenshots/1.png)
+![Gameplay screenshot 2](screenshots/2.png)
 
-## How to play
+## How to Play
 
-- Desktop: Mouse LB Click, Keyboard button SPACE
-- Mobile: TAP to screen
+- Desktop
+  - Left mouse click or `Space` key
+- Mobile
+  - Tap the screen
 
 ## How to run the game locally
 
@@ -34,5 +38,4 @@ This is a simple game that I made with canvas, css and javascript.
 - open `http://127.0.0.1:8080/game4.html`
 
 ## License
-
 - [MIT](LICENSE.md)
